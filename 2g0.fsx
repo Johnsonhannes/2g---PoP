@@ -4,6 +4,8 @@ open System
 
 type vec = float * float
 
+/// <summary> add tager 2 vektorer ind og adderer dem (legge begge koordinater sammen)
+
 let add ((x1, y1) : vec) ((x2, y2) : vec) : vec = 
     (x1 + x2, y1+ y2)
 
