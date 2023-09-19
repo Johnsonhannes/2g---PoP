@@ -1,4 +1,6 @@
-hej
+open Canvas
+open Color
+open System 
 
 type vec = float * float
 
